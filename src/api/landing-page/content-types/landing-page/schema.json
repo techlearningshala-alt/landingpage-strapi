@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "landing-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "domain": {
+      "type": "string",
+      "required": true
+    },
+    "hero": {
+      "type": "text",
+      "required": true
+    },
+    "bannerTitle": {
+      "type": "string"
+    },
+    "bannerDescription": {
+      "type": "string"
+    },
+    "brochure": {
+      "type": "string"
+    },
+    "admissionClosingDescription": {
+      "type": "string",
+      "default": "Admission Closing In 5 Days"
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
