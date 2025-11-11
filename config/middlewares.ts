@@ -11,7 +11,7 @@ export default [
         'https://www.edusprinthub.com',
         'https://studybettertoday.com',
         'https://www.studybettertoday.com',
-         'http://13.232.133.192',
+         'http://13.203.144.7',
       ],
       headers: ['*'],
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
