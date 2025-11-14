@@ -8,6 +8,7 @@ export default [
       origin: [
         'http://localhost:3000',
         'https://edusprinthub.com',
+        'http://edusprinthub.com',
         'https://www.edusprinthub.com',
         'https://studybettertoday.com',
         'https://www.studybettertoday.com',
